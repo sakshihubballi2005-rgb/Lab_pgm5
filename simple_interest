@@ -1,0 +1,9 @@
+def simple_interest(principle, interest, time):
+    retrun (principle*interest*time)/100
+
+if_name_ == "_main_":
+    p = int(input("enter principle amt"))
+    i = int(input("enter interest"))
+    t = int(input("enter time in months"))
+
+    print("simple interest is:",simple_interest(p, i, t))
